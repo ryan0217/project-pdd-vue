@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { sendRes, filterUserInfo } = require('../util');
+const {sendRes, filterUserInfo} = require('../util');
 const HotCarousel = require('../models/HotCarousel');
 const HotNav = require('../models/HotNav');
 const HotSpecialCarousel = require('../models/HotSpecialCarousel');

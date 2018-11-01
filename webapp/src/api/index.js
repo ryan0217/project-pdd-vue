@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // 拦截响应
 axios.interceptors.response.use((res) => {
-  res.data = JSON.parse(JSON.stringify(res.data).replace(/127.0.0.1:3000/g, 'www.srrrr.top:80'));
+  res.data = JSON.parse(JSON.stringify(res.data).replace(/127.0.0.1:3000/g, 'srrrr.top:3001'));
   return res.data;
 });
 

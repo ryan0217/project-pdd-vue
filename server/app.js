@@ -28,7 +28,7 @@ app.use(session({
 
 // 连接数据库
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://******/vue-pdd', {
+mongoose.connect('mongodb://用户名:密码@ip地址/数据库名', {
   useNewUrlParser: true
 }, (err) => {
   err ? console.log('数据库连接失败') : console.log('数据库连接成功');
