@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "lib-flexible": "^0.3.2",
     "mint-ui": "^2.2.13",
     "swiper": "^4.4.1",
